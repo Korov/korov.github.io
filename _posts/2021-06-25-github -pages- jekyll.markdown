@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "使用Jekyll部署Github Pages"
-date:   2021-06-25 19:18:02 +0800
-categories: "jekyll"
+title: "使用Jekyll部署Github Pages"
+date: 2021-06-25 19:18:02 +0800
+categories: ["jekyll","github pages"]
+tags: ["blog"]
 ---
 #  安装Ruby
 
@@ -68,4 +69,8 @@ git branch -u origin/main
 ```
 
 完成上面的操作之后你的本地代码已经部署到你的github仓库上面了，接下需要进行如下操作，github界面上进入仓库，`Settings → Options → GitHub Pages`，然后将`Source`的`branch`设置为`gh-pages`。就可以访问自己的[页面](https://korov.github.io/)了
+
+# 常用命令
+
+重新生成：`jekyll build`
 
